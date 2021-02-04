@@ -39,7 +39,7 @@
     "url": "https://github.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prepare": "npm run build",
+    "postinstall": "npm run build",
     "prebuild": "rm -rf dist/",
     "build": "./build.js",
     "postbuild": "cp styles.css package.json README.md dist/",
